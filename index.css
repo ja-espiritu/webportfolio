@@ -1,0 +1,54 @@
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ font-family: 'EB Garamond', serif;
+}
+
+#navbar {
+  opacity: 0.8;
+}
+
+img#landing {
+  height: 40rem;
+  width: 78.9rem; 
+}
+
+.card {
+  width: 18rem;
+  height: 15rem;
+  text-align: center;
+}
+
+#section {
+  background-color: rgb(108, 117, 125);
+}
+
+/*#skills > li > img {
+  width: 64px;
+  height: 64px;
+}*/
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 30px;}
+}
+
+#skills > li > img {
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+}
+
+#projects {
+  background-color: rgb(222, 226, 230);
+}
+
+
