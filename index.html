@@ -19,9 +19,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond&family=Open+Sans&family=Sono&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div>
+	<div class="container-fluid">
 		<!-- Navigation -->
-		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top p-1 pl-3" id="navbar">
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top p-1 pl-5" id="navbar">
 			<a class="navbar-brand" href="#home">JEN</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 				<span class="navbar-toggler-icon"></span>
@@ -42,20 +42,21 @@
 					</li> 
 					<li class="nav-item">
 						<a class="nav-link" href="#contact">Contact</a>
-					</li>   
+					</li> 
 				</ul>
 			</div>  
+			
 		</nav>
 		
 
 		<!-- Header -->
-		<div id="home">
-			<img src="./images/backdrop.gif"  id="landing" class="img-fluid">
+		<div id="home" class="img-fluid">
+			<img src="./images/backdrop.gif"  id="landing" class="img-fluid" >
 		</div>
 		<!-- Section about -->
-		<div id="about" class="p-5 col-sm-2 col-md-12 col-lg-12">
+		<div id="about" class="p-5 col-sm-12 col-md-12 col-lg-12">
 			<h2 class="text-center mt-5 font-weight-bolder" >About Me</h2>
-			<p class="offset-md-2 col-md-8 text-center mt-4 mb-5 font-weight-bold"> Hi! My Name is Janel Natividad. I'm a Full-Stack Developer. I've been in IT industry for more than 6 years. I've been working with different company and Government Agency. I handle a lot of project and people. I do workshop for Automation using Robot Framework. I do Automation Testing for Web, API and Mobile device such as IOS and Android. My experience in IT helped me to develop expert knowledge in coding.
+			<p class="col-md-12 text-center mt-4 mb-5 font-weight-bold"> Hi! My Name is Janel Natividad. I'm a Full-Stack Developer. I've been in IT industry for more than 6 years. I've been working with different company and Government Agency. I handle a lot of project and people. I do workshop for Automation using Robot Framework. I do Automation Testing for Web, API and Mobile device such as IOS and Android. My experience in IT helped me to develop expert knowledge in coding.
 			I am aspiring for a challenging job in a multinational company that helps to master in the field of IT and contribute more to be able to grow and develop my knowledge and help other people to upscale their skills. </p> 
 		</div>
 
@@ -91,7 +92,7 @@
 
 		<!-- Skills Starts -->
 
-		<div class="col-sm-2 col-md-12 col-lg-12">
+		<div class="col-sm-2 col-md-12 col-lg-12 container">
 			<h3 class="text-center font-weight-bolder mt-5 mb-3">Skills</h3>
 			<ul class="list-unstyled mr-5 p-1" id="skills">
 				<li class="media">
@@ -155,9 +156,9 @@
 
 
 		<!-- Skills End -->
-		<!-- Carousel Projects Section Start -->
-					<div class="row d-md-block mt-md-5 mb-5" id="projects">
-						<div class="offset-xl-3 col-xl-6">
+		<!-- Project Start -->
+					<div class="row d-none d-md-block mt-md-5" id="projects">
+						<div class="col-sm-12 col-md-12 col-lg-12 ">
 							<h3 class="text-center font-weight-bolder text-dark">Projects</h3>
 							<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 								<ol class="carousel-indicators">
@@ -194,16 +195,18 @@
 									<span class="sr-only">Next</span>
 								</button>
 							</div>
-							
+							</div>
 						</div>
 					</div>
-					<!-- Carousel Section End -->
-					<!-- Contact me  Starts-->
+				
+						<!-- Projects End -->
+				
+					
 					<!-- Contact Form Section Start -->
 				<div class="bg-dark min-vh-70 p-5">
 					<h2 class="text-light text-center font-weight-bolder">Contact Me</h2>
 					<div class="row mt-3">
-						<form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 p-3 rounded">
+						<form class="col-sm-12 col-md-12 col-lg-12 p-3 rounded">
 							<div class="form-group">
 								<label class="text-dark" for="name">Full Name:</label>
 								<input type="text" class="form-control" id="name" placeholder="Jane Doe" required autocomplete/>
@@ -251,7 +254,14 @@
 					</div>
 				</div>
 				<!-- Modal End -->
+				<!-- Footer -->
+				<div>
+					<div id="footer">
+						<p class="text-center mt-2">&#169;All Rights Reserved. Data Privacy	</p>
 
+					</div>
+				</div>
+ 
 	</div>
 </div>
 
