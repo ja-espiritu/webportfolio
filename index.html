@@ -198,8 +198,59 @@
 						</div>
 					</div>
 					<!-- Carousel Section End -->
-					<!-- Contact me -->
-
+					<!-- Contact me  Starts-->
+					<!-- Contact Form Section Start -->
+				<div class="bg-dark min-vh-70 p-5">
+					<h2 class="text-light text-center font-weight-bolder">Contact Me</h2>
+					<div class="row mt-3">
+						<form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 p-3 rounded">
+							<div class="form-group">
+								<label class="text-dark" for="name">Full Name:</label>
+								<input type="text" class="form-control" id="name" placeholder="Jane Doe" required autocomplete/>
+							</div>
+							<div class="form-group">
+								<label class="text-dark" for="exampleInputEmail1">Email Address:</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="jane.doe@email.com" required/>
+							</div>
+							<div class="form-group">
+								<label class="text-dark" for="contact">Contact Number:</label>
+								<input type="text-dark" class="form-control" id="contact" placeholder="63 900 000 0000" required/>
+							</div>
+							<div class="form-group">
+								<label class="text-dark" for="contact">Subject:</label>
+								<input type="text" class="form-control" id="contact" required/>
+							</div>
+							<div class="form-group">
+								<label class="text-dark">Message:</label>
+								<textarea class="form-control" id="message" rows="7" required/></textarea>
+							</div>
+							<button type="submit" class="btn btn-dark" data-toggle="modal" data-target=#exampleModal>Send Email</button>
+						</form>
+					</div>
+				</div>
+				<!-- Contact Form Section End -->
+				<!-- Modal Start -->
+				<div>
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title">Thank you for reaching out on me!</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<p>Email Successfully Sent!</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Modal End -->
 
 	</div>
 </div>
